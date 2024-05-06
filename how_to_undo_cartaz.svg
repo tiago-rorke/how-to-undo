@@ -28,14 +28,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0658928"
-     inkscape:cx="217.18882"
+     inkscape:cx="216.71973"
      inkscape:cy="273.01057"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showguides="false"
      showgrid="false"><sodipodi:guide
        position="7.0276714,147.97233"
@@ -440,7 +440,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,-0.53188833,95.70887)"><tspan
          x="27.826172"
          y="185.76204"
-         id="tspan16">image: peacay - BibliOdyssey CC-BY</tspan></text><path
+         id="tspan1">image: peacay - BibliOdyssey CC-BY</tspan></text><path
        id="path50"
        clip-path="url(#clipPath38)"
        style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352778;stroke-opacity:1"
@@ -454,7 +454,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,-0.53154322,81.357911)"><tspan
          x="27.826172"
          y="194.10212"
-         id="tspan17">+ info and register:</tspan></text><text
+         id="tspan2">+ info and register:</tspan></text><text
        xml:space="preserve"
        id="text4"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.6667px;font-family:'Screener SC';-inkscape-font-specification:'Screener SC Bold';white-space:pre;shape-inside:url(#rect4);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.113386;stroke-opacity:1"
@@ -462,7 +462,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,-0.79944834,88.943189)"><tspan
          x="27.826172"
          y="196.69346"
-         id="tspan18">MILL.PT/AGENDA</tspan></text><text
+         id="tspan3">MILL.PT/AGENDA</tspan></text><text
        xml:space="preserve"
        id="text2-2-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Abel;-inkscape-font-specification:Abel;white-space:pre;shape-inside:url(#rect3-0-1);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.113386;stroke-opacity:1"
@@ -470,11 +470,11 @@
        transform="matrix(0.26458333,0,0,0.26458333,-0.77166567,53.368445)"><tspan
          x="27.826172"
          y="195.29353"
-         id="tspan19">Tuesday, May 22
+         id="tspan4">Wednesday, May 22
 </tspan><tspan
          x="27.826172"
          y="221.96016"
-         id="tspan20">18h00 - 21h00, €20</tspan></text><text
+         id="tspan5">18h00 - 21h00, €20</tspan></text><text
        xml:space="preserve"
        id="text2-2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:Abel;-inkscape-font-specification:Abel;white-space:pre;shape-inside:url(#rect3-0);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.113386;stroke-opacity:1"
@@ -482,17 +482,17 @@
        transform="matrix(0.26458333,0,0,0.26458333,-0.65866671,19.475598)"><tspan
          x="27.826172"
          y="195.29353"
-         id="tspan21">How to use these essential free tools
+         id="tspan6">How to use these essential free tools
 </tspan><tspan
          x="27.826172"
          y="221.96016"
-         id="tspan22">to manage projects, share content, and </tspan><tspan
+         id="tspan7">to manage projects, share content, and </tspan><tspan
          x="27.826172"
          y="248.62678"
-         id="tspan23">collaborate, all while keeping a record of </tspan><tspan
+         id="tspan8">collaborate, all while keeping a record of </tspan><tspan
          x="27.826172"
          y="275.29341"
-         id="tspan24">versions and changes made along the way.</tspan></text><text
+         id="tspan9">versions and changes made along the way.</tspan></text><text
        xml:space="preserve"
        id="text2"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:33.3333px;font-family:Abel;-inkscape-font-specification:Abel;white-space:pre;shape-inside:url(#rect3);display:inline;opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.113386;stroke-opacity:1"
@@ -500,11 +500,11 @@
        transform="matrix(0.26458333,0,0,0.26458333,-1.0259138,-6.0130502)"><tspan
          x="27.826172"
          y="206.01652"
-         id="tspan25">Intro to Git and GitHub
+         id="tspan10">Intro to Git and GitHub
 </tspan><tspan
          x="27.826172"
          y="247.68315"
-         id="tspan26">for Non-Coders</tspan></text><text
+         id="tspan11">for Non-Coders</tspan></text><text
        xml:space="preserve"
        transform="matrix(0.29466952,0,0,0.29469344,-6.0697831,-3.0934738)"
        id="text1"
@@ -512,11 +512,11 @@
        inkscape:label="Event Title"><tspan
          x="40.667969"
          y="68.203074"
-         id="tspan28"><tspan
+         id="tspan13"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Screener SC Bold'"
-           id="tspan27">HOW TO </tspan></tspan><tspan
+           id="tspan12">HOW TO </tspan></tspan><tspan
          x="40.667969"
          y="128.06057"
-         id="tspan30"><tspan
+         id="tspan15"><tspan
            style="font-weight:bold;-inkscape-font-specification:'Screener SC Bold'"
-           id="tspan29">UNDO</tspan></tspan></text></g></svg>
+           id="tspan14">UNDO</tspan></tspan></text></g></svg>
