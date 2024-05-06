@@ -2,19 +2,35 @@
 
 _How to use these essential free tools to manage projects, share content, and collaborate, all while keeping a record of versions and changes made along the way._
 
-
-While built for programmers, Git is an 
-
-
 ---
 
-Git is a free open-source version control tool
+Git is a free and open-source version control tool that widely used for working with code, and one of the essential tools enabling open-source collaboration.
 
+While built for programmers, Git is an amazing tool that anybody can use to manage any kind of content.  Be it text, spreadsheets, images, vector drawings, or 3D models, you can put pretty much anything you want into a Git repository. Doing so will, almost like magic, allow you to easily manage versions of files, share and collaborate on them with your colleagues, create backups, and more.
 
+Using Git you can, for example:
+- Publish project documentation
+- Manage versions of graphic design work such as posters or fliers
+- Make a repository of assets such as logos or icons
+- Organise, backup and synchronise your notes across different devices
+- Create a Wiki for your community
 
-Whilst simple to use, Git can be confusing for new users, especially for those who are not necessarily interested in using it for software development.  In this 3 hour workshop, you will learn all you need to know to start using git to organising
+Whilst simple to use, Git can be confusing for new users, especially for those who are not necessarily interested in using it for software development, as most tutorials and reference material is designed for learning to use Git with code.
 
+In this hands-on workshop, you will learn all you need to know to start using Git to organise your projects, and to publish and collaborate on them using GitHub.
 
+Whilst this workshop is aimed at people with no programming experience, coders are also welcome to participate :)
+
+Topics covered:
+- Installing and using Git, GitHub Desktop and Obsidian.
+- Writing in Markdown
+- Using Git locally
+- Collaborating on a repository using GitHub
+- Publishing a simple website using GitHub Pages
+
+_The workshop will be in English._
+
+---
 
 ## Outline
 
@@ -51,7 +67,7 @@ Whilst simple to use, Git can be confusing for new users, especially for those w
 	- Add an "install and use Obsidian" task to the to do list, and add check boxes to the tasks
 	- Add a link to the todo list in the readme file
 
-- Food to Fork - add your own recipe to the repository to share
+- "Food to Fork" - add your own recipe to the repository to share
 	- https://github.com/tiago-rorke/food-to-fork/
 	- clone the repository from GitHub (File > Clone Repository > URL)
 	- Open as vault in Obsidian, and change the vault settings again. (Unfortunately this must be done each time you create or open a new vault).
@@ -111,6 +127,11 @@ https://github.com/git-guides/install-git
 https://github.blog/2015-06-08-how-to-undo-almost-anything-with-git/
 
 [Dan Shiffman the Coding Train - Git and GitHub for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
+
+
+### Interesting uses of Git
+
+https://github.com/solarpunklab/solarpunk-lab
 
 
 ---
