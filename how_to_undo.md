@@ -45,7 +45,6 @@ _welcome and introductions_
 	- Check if it is already installed with `git version` in the terminal
 	- MacOS - Install using Homebrew
 	- Windows - Download and install Git for Windows
-
 - [STEP 1.2] Install GitHub Desktop, our "Git GUI Client"
 	- https://desktop.github.com/
 	- Temporarily set `name` and `email` to anything you like
@@ -70,12 +69,8 @@ _welcome and introductions_
 	- Change the vault settings (see [obsidian setup](#Obsidian-Setup-for-GitHub-Compatibility)).
 	- Add an "install and use Obsidian" task to the to do list, and add check boxes to the tasks.
 	- Add a link to the todo list in the readme file.
-	- In GitHub Desktop, notice that obsidian has added some new hidden files.  To tell git to ignore these files, in a text editor create a new file containing:
-	```
-	.obsidian/*
-	```
-	- Save this file as `.gitignore` inside the `learning-git` folder.
-	- Make a new commit to add the new `.gitignore` file to the repository.
+	- In GitHub Desktop, notice that obsidian has added some new hidden files. To tell git to ignore these files, go to Repository > Repository Settings > Ignored Files, and enter `.obsidian`.
+	- This will create a new file in the working directory called `.gitignore`. Make a new commit to add the file to the repository.
 
 - [STEP 3] Make a New Branch
 	- In GitHub Desktop, in the 'Current branch' menu create a new branch called `sandbox`.
@@ -85,6 +80,8 @@ _welcome and introductions_
 	- Try moving files around and renaming them, and see how this appears in the history after making a commit.
 
 - [Summary]
+	- Branch, Checkout, HEAD and "detached" HEAD.
+	- Be careful not to checkout when you have files open in a program that doesn't watch for changes to the file as you are working on it.
 	- Binary vs text files in Git.  Note about file sizes when working with binary files.
 	- GitHub image diffs.
 
@@ -100,12 +97,12 @@ _welcome and introductions_
 
 _Pause to play with obsidian and learn some more Markdown syntax._
 
-- Backup `learning-git` to GitHub
+- [STEP 4] Backup `learning-git` to GitHub
 	- Sign up to GitHub, then sign-in in GitHub Desktop (File > Options > Accounts).
 	- Make sure you are in the `main` branch, and select 'Publish Repository' and publish as a private repository.
 	- Access your notes on GitHub via the dashboard.
 
-- "Food to Fork" - add your own recipe to the repository to share
+- [STEP 5] "Food to Fork" - add your own recipe to the repository to share
 	- https://github.com/tiago-rorke/food-to-fork/
 	- clone the repository from GitHub (File > Clone Repository > URL)
 	- Open as vault in Obsidian, and change the vault settings again. (Unfortunately this must be done each time you create or open a new vault).
@@ -113,7 +110,7 @@ _Pause to play with obsidian and learn some more Markdown syntax._
 	- Once you are ready to publish the recipe, make sure you have committed all your changes, and have updated your local copy with `Fetch` and `Pull`.  If there are no conflits to resolve, you can publish with `Push`.
 
 - [Summary]
-	- Checkout, HEAD, branch, 
+	- Clone, Pull, 
 
 
 ## Obsidian Setup for GitHub Compatibility
@@ -190,6 +187,10 @@ Git doesn't need an internet connection, you can use it entirely locally on your
 Git is very lightweight, you should be able to use it easily on an old computer.
 
 IMPORTANT - be careful what you put in a public git repository, including in the commit messages.  ie: no login credentials or other sensitive information.
+
+Summary of 'Repository Settings'
+
+aaron shwarz
 
 ### Ideas
 
