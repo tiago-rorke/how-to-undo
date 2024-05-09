@@ -1,6 +1,6 @@
 # HOW TO UNDO - Intro to Git and GitHub for Non-Coders
 
-[Outline](how-to-undo.md)  
+[Outline](how_to_undo.md)  
 [Slides](slides.pdf)  
 
 ## Links
