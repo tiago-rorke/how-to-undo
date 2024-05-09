@@ -1,5 +1,8 @@
 # HOW TO UNDO - Intro to Git and GitHub for Non-Coders
 
+[Outline](how-to-undo.md)  
+[Slides](slides.pdf)  
+
 ## Links
 
 - [STEP 1.1] Install Git
