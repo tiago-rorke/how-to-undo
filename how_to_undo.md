@@ -71,6 +71,7 @@ _welcome and introductions_
 	- Add a link to the todo list in the readme file.
 	- In GitHub Desktop, notice that obsidian has added some new hidden files. To tell git to ignore these files, go to Repository > Repository Settings > Ignored Files, and enter `.obsidian`.
 	- This will create a new file in the working directory called `.gitignore`. Make a new commit to add the file to the repository.
+	- Note that as soon as make any changes in Obsidian, these will appear in GitHub Desktop.  There is no option to 'save' in obsidian, your files are always updated as you modify them.
 
 - [STEP 3] Make a New Branch
 	- In GitHub Desktop, in the 'Current branch' menu create a new branch called `sandbox`.
@@ -79,21 +80,20 @@ _welcome and introductions_
 	- Make a new commit and notice how GitHub desktop diff window shows different things for the different poster filetypes.
 	- Try moving files around and renaming them, and see how this appears in the history after making a commit.
 
-- [Summary]
-	- Branch, Checkout, HEAD and "detached" HEAD.
-	- Be careful not to checkout when you have files open in a program that doesn't watch for changes to the file as you are working on it.
-	- Binary vs text files in Git.  Note about file sizes when working with binary files.
-	- GitHub image diffs.
-
 - Use checkout to go back to a previous version of the sandbox.
 	- In the history tab, right click on the `testing the sandbox` commit, and select 'Checkout commit'.  GitHub Desktop will warn you about 'detaching the HEAD', select 'Checkout' to confirm.
 	- In the `learning-git` folder, notice how the posters are gone.  In GitHub desktop.  In the 'Current branch' menu, it will say 'Detached HEAD'.
 	- Select `sandbox` in the 'Current branch' menu to return our files to the latest changes we made.
 
 - [Summary]
+	- Branch, Checkout, HEAD and "detached" HEAD.
+	- Be careful not to checkout when you have files open in a program that doesn't watch for changes to the file as you are working on it.
+	- Binary vs text files in Git.  Note about file sizes when working with binary files.
+	- GitHub image diffs.
 	- Why is Markdown so great?
 	- Look at the obsidian Markdown syntax reference.
 	- Look at some other online Markdown editors.
+	- How I use tend to use git to organise my projects.
 
 _Pause to play with obsidian and learn some more Markdown syntax._
 
@@ -102,15 +102,34 @@ _Pause to play with obsidian and learn some more Markdown syntax._
 	- Make sure you are in the `main` branch, and select 'Publish Repository' and publish as a private repository.
 	- Access your notes on GitHub via the dashboard.
 
+- [Summary]
+	- Local vs Remote repository
+	- Push
+
 - [STEP 5] "Food to Fork" - add your own recipe to the repository to share
 	- https://github.com/tiago-rorke/food-to-fork/
-	- clone the repository from GitHub (File > Clone Repository > URL)
+	- Clone the repository from GitHub (File > Clone Repository > URL)
 	- Open as vault in Obsidian, and change the vault settings again. (Unfortunately this must be done each time you create or open a new vault).
 	- Create a folder for your recipe, and put a new note in that folder.  Add any pictures you would like to include to that folder as well.
 	- Once you are ready to publish the recipe, make sure you have committed all your changes, and have updated your local copy with `Fetch` and `Pull`.  If there are no conflits to resolve, you can publish with `Push`.
 
 - [Summary]
-	- Clone, Pull, 
+	- Clone, Pull
+
+- Fork the MILL Wiki to add some content to the Lisbon Makers Map
+	- Fork the wiki to your GitHub account at https://github.com/MILL-LX/mill-wiki
+	- Clone your fork of the wiki to a local repository on your computer.
+	- Edit the src/pages/map.md file, and add a supplier to the list.
+	- Make a commit and push it to your fork on GitHub.
+	- On on your forked repository page, go to 'Pull Requests' and make a new pull request.
+	- If your request is accepted by the original repository owner, you will receive an email notification!
+
+- [STEP 6] Make your own recipe webpage
+	- On GitHub, make a new repository for your recipe, and initialize it with a README.md file.
+	- In the repository settings on GitHub, go to 'Pages', and under 'Branch' select `main` and `/(root)` as the folder, then click 'Save'.
+	- Clone your new repository to your computer with GitHub Desktop.
+	- Copy your recipe folder from the "food-to-fork" repository to your new repository.  Delete the existing readme file and rename your recipe file to README.md.
+	- Make a commit and push it to GitHub.  After about 30s or so, your website will be online, you can find the link to it at the top of the Pages section of the repository settings on GitHub.
 
 
 ## Obsidian Setup for GitHub Compatibility
@@ -190,7 +209,7 @@ IMPORTANT - be careful what you put in a public git repository, including in the
 
 Summary of 'Repository Settings'
 
-aaron shwarz
+Git compared with other collaboration and cloud tools like google-docs, dropbox, etherpad, etc...
 
 ### Ideas
 
